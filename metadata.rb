@@ -3,7 +3,7 @@ maintainer 'Daniel Bright'
 maintainer_email 'dbright@chef.io'
 license 'Apache-2.0'
 description 'Installs/Configures api'
-version '0.1.1'
+version '0.1.2'
 chef_version '>= 15.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
