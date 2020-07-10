@@ -1,7 +1,7 @@
-name 'api'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
+name 'ymir-api'
+maintainer 'Daniel Bright'
+maintainer_email 'dbright@chef.io'
+license 'Apache-2.0'
 description 'Installs/Configures api'
 version '0.1.0'
 chef_version '>= 15.0'
@@ -17,3 +17,5 @@ chef_version '>= 15.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/api'
+
+depends 'nodejs'
