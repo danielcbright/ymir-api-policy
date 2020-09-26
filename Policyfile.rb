@@ -9,11 +9,11 @@ name 'ymir-api'
 # Where to find external cookbooks:
 default_source :supermarket
 
-include_policy 'base-linux', policy_name: 'base-linux', policy_group: 'unstable', server: 'https://automate.dbright.io/organizations/dbright'
+include_policy 'ymir-base', policy_name: 'ymir-base', policy_group: 'unstable', server: 'https://automate.dbright.io/organizations/dbright'
 
 # run_list: chef-client will run these recipes in the order specified.
 run_list 'ymir-api::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'ymir-api', path: '.'
-cookbook 'nodejs', github: 'redguide/nodejs', branch: 'master'
+cookbook 'nodejs', github: 'sous-chefs/nodejs', branch: 'master'

@@ -1,6 +1,6 @@
-# api CHANGELOG
+# ymir-api CHANGELOG
 
-This file is used to list changes made in each version of the api cookbook.
+This file is used to list changes made in each version of the ymir-api cookbook.
 
 ## 0.1.0
 
